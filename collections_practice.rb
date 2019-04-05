@@ -83,7 +83,8 @@ def organize_schools(hash_of_schools)
       end #end if 
       if location == value
         organized_hash[value] << school
-      end       
+      end
+      binding.pry 
     end #location do 
   end
   organized_hash
