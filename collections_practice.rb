@@ -80,10 +80,11 @@ def organize_schools(hash_of_schools)
     location.each do |key, value|
       if !organized_hash[value]
         organized_hash[value] = []
-      end #end if 
-      if location == value
+        if location == value
         organized_hash[value] << school
       end
+      end #end if 
+      
       binding.pry 
     end #location do 
   end
