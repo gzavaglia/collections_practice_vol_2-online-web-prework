@@ -66,7 +66,7 @@ def find_cool(array)
   array.each do |info_for_each|
     info_for_each.each do |key, value|
       if value == "cool"
-        output = info_for_each
+        output << info_for_each
       end #end if 
     end #info_for_each do 
   end #end array do 
