@@ -42,6 +42,7 @@ array.group_by(&:itself)
 end #count 
 
 def merge_data(keys, data)
+  info_array = []
   keys.each do |names|
     names.each do |firt, actual_name|
       data.each do |person|
