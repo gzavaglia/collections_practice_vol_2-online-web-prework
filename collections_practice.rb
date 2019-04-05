@@ -53,9 +53,9 @@ def merge_data(keys, data)
           elsif !info_array[1][:first_name]
           info_array[1][:first_name] = "ashley"
           end
-        binding.pry 
         end #end info do 
       end #end data do 
     end #end names do 
   end # end do keys do
+  info_array
 end 
