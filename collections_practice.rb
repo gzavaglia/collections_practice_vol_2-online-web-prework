@@ -81,7 +81,10 @@ def organize_schools(hash_of_schools)
       if !organized_hash[value]
         organized_hash[value] = []
       end #end if 
-      binding.pry
+      if location == value
+        organized_hash[value] << school
+      end       
     end #location do 
   end
+  organized_hash
 end #end organize_schools
