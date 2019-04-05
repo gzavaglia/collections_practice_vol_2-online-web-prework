@@ -72,3 +72,7 @@ def find_cool(array)
   end #end array do 
   output
 end 
+
+def organize_schools(array)
+  
+end #end organize_schools
