@@ -62,13 +62,14 @@ def merge_data(keys, data)
 end 
 
 def find_cool(array)
+  output = []
   array.each do |info_for_each|
     info_for_each.each do |key, value|
       binding.pry
       if value == "cool"
-        return info_for_each
+        output = info_for_each
       end #end if 
     end #info_for_each do 
   end #end array do 
-  info_for_each
+  output
 end 
