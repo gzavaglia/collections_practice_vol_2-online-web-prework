@@ -63,6 +63,7 @@ end
 
 def find_cool(hash)
   hash.each do |key, value|
+    binding.pry
   end #end hash do 
   
 end 
