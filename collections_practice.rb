@@ -85,13 +85,13 @@ def organize_schools(hash_of_schools)
       end #end if 
         if value == "Chicago"
           chicago_array << school
-          organized_hash[value] << chicago_array
+          organized_hash[value] = chicago_array
           elsif value == "NYC"
           nyc_array << school
-          organized_hash[value] << nyc_array
+          organized_hash[value] = nyc_array
           elsif value == "SF"
           sf_array << school
-          organized_hash[value] << sf_array
+          organized_hash[value] = sf_array
     end #if 
     end #location do 
   end
