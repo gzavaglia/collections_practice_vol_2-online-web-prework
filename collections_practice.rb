@@ -61,9 +61,11 @@ def merge_data(keys, data)
   info_array
 end 
 
-def find_cool(hash)
-  hash.each do |key, value|
-    binding.pry
-  end #end hash do 
+def find_cool(array)
+  array.each do |info_for_each|
+    info_for_each.each do |key, value|
+      binding.pry
+    end #info_for_each do 
+  end #end array do 
   
 end 
