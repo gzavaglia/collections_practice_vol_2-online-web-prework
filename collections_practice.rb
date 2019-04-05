@@ -84,7 +84,7 @@ def organize_schools(hash_of_schools)
         organized_hash[value] = []
       end #end if 
         if value == "Chicago"
-          chicago_array[] << school
+          chicago_array << school
       binding.pry 
     end #if 
     end #location do 
