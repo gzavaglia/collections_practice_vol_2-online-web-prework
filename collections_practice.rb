@@ -65,7 +65,6 @@ def find_cool(array)
   output = []
   array.each do |info_for_each|
     info_for_each.each do |key, value|
-      binding.pry
       if value == "cool"
         output = info_for_each
       end #end if 
